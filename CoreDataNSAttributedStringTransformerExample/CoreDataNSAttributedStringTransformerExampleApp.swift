@@ -11,10 +11,15 @@ import SwiftUI
 struct CoreDataNSAttributedStringTransformerExampleApp: App {
     let persistenceController = PersistenceController.shared
 
+    init() {
+        // remove this comment on step 3
+         //NSAttributedStringTransformer.register()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, persistenceController.context)
         }
     }
 }

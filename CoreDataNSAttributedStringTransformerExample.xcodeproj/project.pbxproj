@@ -13,6 +13,9 @@
 		DB237CCD296FFF16008DE25A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB237CCC296FFF16008DE25A /* ContentView.swift */; };
 		DB237CCF296FFF17008DE25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB237CCE296FFF17008DE25A /* Assets.xcassets */; };
 		DB237CD3296FFF17008DE25A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB237CD2296FFF17008DE25A /* Preview Assets.xcassets */; };
+		DB237CDA296FFFB9008DE25A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB237CD9296FFFB9008DE25A /* Note.swift */; };
+		DB237CDC2970002B008DE25A /* NSAttributedStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB237CDB2970002B008DE25A /* NSAttributedStringTransformer.swift */; };
+		DB237CDE297001F3008DE25A /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB237CDD297001F3008DE25A /* RichTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		DB237CCE296FFF17008DE25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB237CD0296FFF17008DE25A /* CoreDataNSAttributedStringTransformerExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataNSAttributedStringTransformerExample.entitlements; sourceTree = "<group>"; };
 		DB237CD2296FFF17008DE25A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB237CD9296FFFB9008DE25A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		DB237CDB2970002B008DE25A /* NSAttributedStringTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringTransformer.swift; sourceTree = "<group>"; };
+		DB237CDD297001F3008DE25A /* RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
+		DB237CDF29700669008DE25A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +63,13 @@
 		DB237CC4296FFF16008DE25A /* CoreDataNSAttributedStringTransformerExample */ = {
 			isa = PBXGroup;
 			children = (
+				DB237CDF29700669008DE25A /* README.md */,
 				DB237CC5296FFF16008DE25A /* CoreDataNSAttributedStringTransformerExampleApp.swift */,
-				DB237CC7296FFF16008DE25A /* Persistence.swift */,
 				DB237CCC296FFF16008DE25A /* ContentView.swift */,
+				DB237CD9296FFFB9008DE25A /* Note.swift */,
+				DB237CDD297001F3008DE25A /* RichTextView.swift */,
+				DB237CC7296FFF16008DE25A /* Persistence.swift */,
+				DB237CDB2970002B008DE25A /* NSAttributedStringTransformer.swift */,
 				DB237CCE296FFF17008DE25A /* Assets.xcassets */,
 				DB237CD0296FFF17008DE25A /* CoreDataNSAttributedStringTransformerExample.entitlements */,
 				DB237CC9296FFF16008DE25A /* CoreDataNSAttributedStringTransformerExample.xcdatamodeld */,
@@ -145,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB237CDA296FFFB9008DE25A /* Note.swift in Sources */,
 				DB237CC6296FFF16008DE25A /* CoreDataNSAttributedStringTransformerExampleApp.swift in Sources */,
 				DB237CCB296FFF16008DE25A /* CoreDataNSAttributedStringTransformerExample.xcdatamodeld in Sources */,
+				DB237CDC2970002B008DE25A /* NSAttributedStringTransformer.swift in Sources */,
 				DB237CCD296FFF16008DE25A /* ContentView.swift in Sources */,
+				DB237CDE297001F3008DE25A /* RichTextView.swift in Sources */,
 				DB237CC8296FFF16008DE25A /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
